@@ -11,50 +11,58 @@
 
     <nav id="navbar">
 
-<header class="title"style="text-align:center;">JS Documentation</header>
-<ul>
-    <li><a class="nav-link"href="#Introduction">Introduction</a></li>
-<li><a class="nav-link" href="#What_you_should_already_know">What you should already know</a></li>
-<li><a class="nav-link" href="#javascript_and_java">Javascript and Java</a></li>
-<li><a class="nav-link" href="#Hello_World">Hello world</a></li>
-<li><a class="nav-link" href="#Variables">Variables</a></li>
-<li><a class="nav-link" href="#Declaring_Variable_scope">Declaring Variables</a></li>
-<li><a class="nav-link" href="#Global_variables">Global Variables</a></li>
-<li><a class="nav-link" href="#Constants">Constant </a></li>
-<li><a class="nav-link" href="#Data_types">Data Types</a></li>
-<li><a class="nav-link" href="#If..else">If..else statement</a></li>
-<li><a class="nav-link" href="#while">while statement</a></li>
-<li><a class="nav-link" href="#Function">Function Declaration</a></li>
-<li><a class="nav-link" href="#Reference">Reference</a></li>
-
-
-
-
-</ul>
-
-
+        <header class="title"style="text-align:center;">JS Documentation</header>
+        <ul>
+<li><a class="nav-link" href="#Introduction">Introduction</a></li>
+    <li>
+      <a class="nav-link" href="#What_you_should_already_know"
+        >What you should already know</a
+      >
+    </li>
+    <li>
+      <a class="nav-link" href="#JavaScript_and_Java">JavaScript and Java</a>
+    </li>
+    <li><a class="nav-link" href="#Hello_world">Hello world</a></li>
+    <li><a class="nav-link" href="#Variables">Variables</a></li>
+    <li>
+      <a class="nav-link" href="#Declaring_variables">Declaring variables</a>
+    </li>
+    <li><a class="nav-link" href="#Variable_scope">Variable scope</a></li>
+    <li><a class="nav-link" href="#Global_variables">Global variables</a></li>
+    <li><a class="nav-link" href="#Constants">Constants</a></li>
+    <li><a class="nav-link" href="#Data_types">Data types</a></li>
+    <li>
+      <a class="nav-link" href="#if...else_statement">if...else statement</a>
+    </li>
+    <li><a class="nav-link" href="#while_statement">while statement</a></li>
+    <li>
+      <a class="nav-link" href="#Function_declarations"
+        >Function declarations</a
+      >
+    </li>
+    <li><a class="nav-link" href="#Reference">Reference</a></li>
+        </ul>
     </nav>
     <main id="main-doc">
-<section class="main-section" id="Introduction"><header>Introduction</header></section>
-<p>JavaScript is a cross-platform, object-oriented scripting language. It is a small and lightweight language. Inside a host environment (for example, a web browser), JavaScript can be connected to the objects of its environment to provide programmatic control over them.
+        <section class="main-section" id="Introduction">
+            <header>Introduction</header></section>
+            <p>JavaScript is a cross-platform, object-oriented scripting language. It is a small and lightweight language. Inside a host environment (for example, a web browser), JavaScript can be connected to the objects of its environment to provide programmatic control over them.
 
-    JavaScript contains a standard library of objects, such as Array, Date, and Math, and a core set of language elements such as operators, control structures, and statements. Core JavaScript can be extended for a variety of purposes by supplementing it with additional objects; for example:
+            JavaScript contains a standard library of objects, such as Array, Date, and Math, and a core set of language elements such as operators, control structures, and statements. Core JavaScript can be extended for a variety of purposes by supplementing it with additional objects; for example:
 
-<ul>
+                <ul>
+                    <li>Client-side JavaScript extends the core language by supplying objects to control a browser and its Document Object Model (DOM). For example, client-side extensions allow an application to place elements on an HTML form and respond to user events such as mouse clicks, form input, and page navigation.
+                    </li>
+                    <li>Server-side JavaScript extends the core language by supplying objects relevant to running JavaScript on a server. For example, server-side extensions allow an application to communicate with a database, provide continuity of information from one invocation to another of the application, or perform file manipulations on a server.
+                    </li>
 
-<li>Client-side JavaScript extends the core language by supplying objects to control a browser and its Document Object Model (DOM). For example, client-side extensions allow an application to place elements on an HTML form and respond to user events such as mouse clicks, form input, and page navigation.
-</li>
-<li>Server-side JavaScript extends the core language by supplying objects relevant to running JavaScript on a server. For example, server-side extensions allow an application to communicate with a database, provide continuity of information from one invocation to another of the application, or perform file manipulations on a server.
-</li>
-
-</ul>
-
+                </ul>
 
 
-</p>
+
+             </p>
 <section class="main-section" id="What_you_should_already_know">
-<header>What you should already know?
-</header>
+<header>What you should already know</header>
 <p>
 
     This guide assumes you have the following basic background.
@@ -73,19 +81,15 @@
 
 </p>
 </section>
-<section class="main-section" id ="javascript_and_java"><header>Javascript and Java</header></section>
+<section class="main-section" id ="JavaScript_and_Java"><header>JavaScript and Java</header></section>
 <p> JavaScript and Java are similar in some ways but fundamentally different in some others. The JavaScript language resembles Java but does not have Java's static typing and strong type checking. JavaScript follows most Java expression syntax, naming conventions and basic control-flow constructs which was the reason why it was renamed from LiveScript to JavaScript.
 
 <br><br>
     In contrast to Java's compile-time system of classes built by declarations, JavaScript supports a runtime system based on a small number of data types representing numeric, Boolean, and string values. JavaScript has a prototype-based object model instead of the more common class-based object model. The prototype-based model provides dynamic inheritance; that is, what is inherited can vary for individual objects. JavaScript also supports functions without any special declarative requirements. Functions can be properties of objects, executing as loosely typed methods.
     <br><br>
     JavaScript is a very free-form language compared to Java. You do not have to declare all variables, classes, and methods. You do not have to be concerned with whether methods are public, private, or protected, and you do not have to implement interfaces. Variables, parameters, and function return types are not explicitly typed.</p>
-<section class="main-section" id="Hello_World"><header>Hello World
-
-
-
-
-</header>
+<section class="main-section" id="Hello_world">
+    <header>Hello world</header>
 
 <p>
     To get started with writing JavaScript, open the Scratchpad and write your first "Hello world" JavaScript code:<br><br>
@@ -105,7 +109,8 @@ A JavaScript identifier must start with a letter, underscore (_), or dollar sign
 
 You can use ISO 8859-1 or Unicode letters such as å and ü in identifiers. You can also use the Unicode escape sequences as characters in identifiers. Some examples of legal names are Number_hits, temp99, and _name.
 </p>
-<section class="main-section" id="Declaring_Variable_scope"><header>Declaring Variable Scope</header></section>
+<section class="main-section" id="Declaring_variables">
+    <header>Declaring variables</header></section>
 <p>
     You can declare a variable in three ways:
     With the keyword var. For example,
@@ -127,8 +132,9 @@ You can use ISO 8859-1 or Unicode letters such as å and ü in identifiers. You 
 
 
 </p>
+<section class="main-section" id="Variable_scope">
+    <header>Variable scope</header></section>
 
-<section class="main-section"id="Variable_scope"><header>Variable Scope</header></section>
 
 <p>
     When you declare a variable outside of any function, it is called a global variable, because it is available to any other code in the current document. When you declare a variable within a function, it is called a local variable, because it is available only within that function.
@@ -147,7 +153,8 @@ This behavior changes, when using the let declaration introduced in ECMAScript 2
 <code>if (true) { let y = 5; } console.log(y); // ReferenceError: y is
     not defined</code>
 </p>
-<section class="main-section"id="Global_variables"><header>Global variables</header>
+<section class="main-section"id="Global_variables">
+    <header>Global variables</header>
 <p>
     Global variables are in fact properties of the global object. In web pages the global object is window, so you can set and access global variables using the window.variable syntax.
 <br><br>
@@ -158,7 +165,8 @@ This behavior changes, when using the let declaration introduced in ECMAScript 2
 
 
 </section>
-<section class="main-section"id="Constants"><header>Constaints</header>
+<section class="main-section"id="Constants">
+    <header>Constants</header>
 <p>
 
 
@@ -197,7 +205,7 @@ WILL CAUSE AN ERROR ALSO function f() { const g = 5; var g;
 
 </p>
 </section>
-<section class="main-section"id="Data_types"><header>Data Types</header>
+<section class="main-section"id="Data_types"><header>Data types</header>
 <p>
     The latest ECMAScript standard defines seven data types:
     <ul>
@@ -232,7 +240,7 @@ Although these data types are a relatively small amount, they enable you to perf
 </p>
 
 </section>
-<section class="main-section"id="If..else"><header>If..else statments</header>
+<section class="main-section"id="if...else_statement"><header>If...else statement</header>
 
 <p>
     Use the if statement to execute a statement if a logical condition is true. Use the optional else clause to execute a statement if the condition is false. An if statement looks as follows:
@@ -267,7 +275,7 @@ If you need to use an assignment in a conditional expression, a common practice 
 </p>
 
 </section>
-<section class="main-section"id="while"><header>While statement</header>
+<section class="main-section"id="while_statement"><header>while statement</header>
 <p>
 
 
@@ -306,7 +314,7 @@ With each iteration, the loop increments n and adds that value to x. Therefore, 
 
 
 </section>
-<section class="main-section"id="Function"><header>Function Declaration</header>
+<section class="main-section"id="Function_declarations"><header>Function declarations</header>
 <p>
     A function definition (also called a function declaration, or function statement) consists of the function keyword, followed by:
 <ul>
@@ -361,17 +369,6 @@ Primitive parameters (such as a number) are passed to functions by value; the va
     </main>
 
 
-    <script><script>
-        // When the user scrolls down 20px from the top of the document, slide down the navbar
-        window.onscroll = function() {scrollFunction()};
-        
-        function scrollFunction() {
-          if (document.body.scrollTop > 20 || document.documentElement.scrollTop > 20) {
-            document.getElementById("navbar").style.top = "0";
-          } else {
-            document.getElementById("navbar").style.top = "-50px";
-          }
-        }
-        </script>
+    
 </body>
 </html>
